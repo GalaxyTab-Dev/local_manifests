@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+   <remote fetch="https://github.com/" name="gh" />
+  
+  <!-- Device -->
+  <project name="GalaxyTab-Dev/android_device_samsung_msm8996-common" path="device/samsung/msm8996-common" remote="gh" revision="cm-14.1" />
+  <project name="GalaxyTab-Dev/android_device_samsung_gts3llte" path="device/samsung/gts3llte" remote="gh" revision="cm-14.1" />
+  <project name="GalaxyTab-Dev/android_device_samsung_gts3lwifi" path="device/samsung/gts3lwifi" remote="gh" revision="cm-14.1" />
+  
+  <!-- Kernel -->
+  <project name="GalaxyTab-Dev/android_kernel_samsung_gts3l" path="kernel/samsung/gts3l" remote="gh" revision="cm-14.1" />
+  
+  <!-- Vendor -->
+  <project name="GalaxyTab-Dev/android_vendor_samsung_msm8996-common" path="vendor/samsung/msm8996-common" remote="gh" revision="cm-14.1" />
+  <project name="GalaxyTab-Dev/android_vendor_samsung_gts3llte" path="vendor/samsung/gts3llte" remote="gh" revision="cm-14.1" />
+	
+  <!-- Hardware -->
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="gh" revision="cm-14.1" />
+  <project name="LineageOS/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="gh" revision="cm-14.1" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="gh" revision="cm-14.1" />
+   
+  <!-- Etc -->
+  <project path="hardware/sony/timekeep" name="LineageOS/android_hardware_sony_timekeep" remote="gh" revision="cm-14.1" />
+  
+</manifest>
